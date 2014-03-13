@@ -16,7 +16,7 @@
     "less-middleware": "*",
     "johnny-five": "0.7.17",
     "socket.io": "*",
-    "serialport": "*"
+    "serialport": "*",
     "d3": "*"
   }
   
