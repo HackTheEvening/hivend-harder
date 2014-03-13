@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="triggerApp">
+  <head>
+    <title>Triggers</title>
+    <link rel='stylesheet' href='/styles/base.css' />
+    <link rel='stylesheet' href='/styles/triggers.css' />
+    <script src='/script/lib/angular.min.js'></script>
+    <script src='/script/controllers/trigger-controller.js'></script>
+    <script src="/socket.io/socket.io.js"></script>
+  </head>
+  <body ng-controller="TriggerController">
+    <h1>Triggers</h1>
+    <ul class="switches">
+      <li ng-repeat="sw in switches">
+        <button type="button" class="switch" ng-click="triggerClick(sw)">{{ sw.label }}</button>
+      </li>
+    </ul>
+    <ul class="results">
+      <li ng-repeat="result in results">
+        {{result.text}}
+      </li>
+    </div>
+  </body>
+</html>

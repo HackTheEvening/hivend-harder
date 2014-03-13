@@ -1,0 +1,26 @@
+@button-width: 48px;
+@button-height: @button-width / 1.618;
+
+.switch {
+	width: @button-width;
+	height: @button-height;
+}
+
+.switches {
+	display: inline-block;
+	width: @button-width * 1.618 * 4;
+	li {
+		display: inline-block;
+		line-height: @button-height * 1.618;
+		margin-right: @button-width * 0.618;
+	}
+}
+
+.results
+{
+	display: inline-block;
+	width: 300px;
+	height: 200px;
+	overflow: auto;
+	overflow-y: scroll;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "hivend-harder",
+  "version": "0.0.1",
+  "description": "hivend yo",
+  "main": "app.js",
+  "repository": "",
+  "author": "",
+  
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.4.8",
+    "ejs": "*",
+    "less-middleware": "*",
+    "johnny-five": "0.7.17",
+    "socket.io": "*",
+    "serialport": "*"
+    "d3": "*"
+  }
+  
+}

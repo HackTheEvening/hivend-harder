@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="testViewApp">
+  <head>
+    <title>Test page of doom</title>
+    <link rel='stylesheet' href='/styles/base.css' />
+    <script src='/script/lib/angular.min.js'></script>
+    <script src='/script/controllers/testview.js'></script>
+  </head>
+  <body ng-controller="TestViewController">
+    <h1>This is the test page</h1>
+    <p>The <i>foo</i> parameter was set to "<%= foo %>"</p>
+    <div>
+      <ul>
+        <li ng-repeat="phone in phones">
+          {{phone.name}}
+          <p>{{phone.snippet}}</p>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
