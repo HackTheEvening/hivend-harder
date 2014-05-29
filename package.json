@@ -4,20 +4,20 @@
   "description": "hivend yo",
   "main": "app.js",
   "repository": "",
-  "author": "",
-  
+  "author": "@nog3",
+
   "private": true,
   "scripts": {
     "start": "node app.js"
   },
   "dependencies": {
-    "express": "3.4.8",
+    "express": "*",
     "ejs": "*",
     "less-middleware": "*",
-    "johnny-five": "0.7.17",
+    "johnny-five": "*",
     "socket.io": "*",
     "serialport": "*",
     "d3": "*"
   }
-  
+
 }
