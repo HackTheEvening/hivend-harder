@@ -1,10 +1,10 @@
 {
   "name": "hivend-harder",
   "version": "0.0.1",
-  "description": "hivend yo",
+  "description": "hivend serverside code",
   "main": "app.js",
   "repository": "",
-  "author": "@nog3",
+  "author": "@nog3 @lachlanc",
 
   "private": true,
   "scripts": {
@@ -17,7 +17,8 @@
     "johnny-five": "*",
     "socket.io": "*",
     "serialport": "*",
-    "d3": "*"
+    "d3": "*",
+    "angular": "*"
   }
 
 }
